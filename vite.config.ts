@@ -12,6 +12,9 @@ export default defineConfig({
   optimizeDeps: {
     include: ["vue", "vue-router"],
   },
+  build: {
+    sourcemap: true,
+  },
   // css: {
   //   postcss: {
   //     plugins: [
