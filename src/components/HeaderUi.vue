@@ -38,16 +38,14 @@
     <div class="header-nav">
       <ul class="list-menu">
         <li class="list-item">
-          <a href="#">Чему вы научитесь</a>
+          <a href="#">Возможности</a>
         </li>
         <li class="list-item">
-          <a href="#">Процесс обучения</a>
-        </li>
-
+          <a href="#">Турниры</a>
+        </li>     
         <li class="list-item">
-          <a href="#">Стоимость</a>
+          <a href="#">Архив задач</a>
         </li>
-
         <li class="list-item">
           <a href="#">Контакты</a>
         </li>
