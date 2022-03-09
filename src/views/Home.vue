@@ -1,18 +1,8 @@
 <template>
-  <div>
-    <div class="center" >
-      <img alt="Vue logo" src="../assets/logo.png" />
-    </div>
-    <h1 class="center">home</h1>
+  <div class="full-center">
+    <div >
+      <img alt="Vue logo" src="../assets/img/logo.png" />
+    </div> 
   </div>
 </template>
 
-
-<style>
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-</style>

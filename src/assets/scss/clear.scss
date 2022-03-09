@@ -16,9 +16,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: inherit;
 	vertical-align: baseline;
 }
-a {
-	text-decoration: none;
-}
+
 ul>li {
 	list-style: none;
+}
+
+a, a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: inherit;
 }

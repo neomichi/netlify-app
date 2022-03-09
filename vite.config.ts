@@ -1,14 +1,23 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import copy from 'rollup-plugin-copy'
 import * as path  from "path";
-import * as fs from "fs";
 
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
+const devPath=path.resolve(__dirname, "src","assets",'fonts')
 
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(),
+    viteStaticCopy({targets: [
+      { src: devPath+'/*', dest: 'dist/public/fonts/' }
+      
+    ]
+})
+
+],
   optimizeDeps: {
     include: ["vue", "vue-router"],
   },
